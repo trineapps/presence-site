@@ -1,5 +1,12 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/download",
+      "destination": "https://github.com/trineapps/presence/releases/latest/download/Presence.dmg",
+      "permanent": false
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
